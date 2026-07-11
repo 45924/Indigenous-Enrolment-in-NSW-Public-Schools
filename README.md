@@ -1,13 +1,13 @@
 # Indigenous Enrolment in NSW Public Schools
 
-**The rate is remote, the numbers are urban.** An analysis of how Aboriginal and Torres Strait Islander enrolment is distributed across every open NSW government school — built three ways (R, Excel, Power BI) so the same story lands for three different audiences.
+**The rate is remote, the numbers are urban.** An analysis of how Aboriginal and Torres Strait Islander enrolment is distributed across every open NSW government school - built three ways (R, Excel, Power BI) so the same story lands for three different audiences.
 
-> Across 2,210 NSW public schools, the *percentage* of Indigenous enrolment is highest in the bush, but the *number* of Indigenous students is overwhelmingly urban. Roughly **85%** of the state's Indigenous public‑school students attend Major‑City and Inner‑Regional schools. Rate and count point to different places — and both matter for how schools are resourced.
+> Across 2,210 NSW public schools, the *percentage* of Indigenous enrolment is highest in the bush, but the *number* of Indigenous students is overwhelmingly urban. Roughly **85%** of the state's Indigenous public‑school students attend Major‑City and Inner‑Regional schools. Rate and count point to different places - and both matter for how schools are resourced.
 
-<!-- Add screenshots here once exported -->
-<!-- ![Power BI — Overview](images/powerbi_overview.png) -->
-<!-- ![Power BI — Factors](images/powerbi_factors.png) -->
-<!-- ![Excel — Dashboard](images/excel_dashboard.png) -->
+<img width="1476" height="673" alt="image" src="https://github.com/user-attachments/assets/4b187c0d-d4c9-4a8c-aaa1-fd17384ef1f5" />
+<img width="1480" height="668" alt="image" src="https://github.com/user-attachments/assets/8d676854-c994-4706-91cc-ea09886f1211" />
+<img width="1483" height="670" alt="image" src="https://github.com/user-attachments/assets/e211dcaa-9a3b-44a6-9460-4dd8ef00b37b" />
+
 
 ---
 
@@ -70,21 +70,21 @@ nsw-schools-indigenous-enrolment/
 
 ## The Power BI dashboard
 
-`powerbi/NSW_School_Indigenous_Dashboard.pbix` — an interactive two‑page report with a full DAX model, insight‑driven chart titles, drill‑ready slicers, and a bubble map.
+`powerbi/NSW_School_Indigenous_Dashboard.pbix`: an interactive two‑page report with a full DAX model, insight‑driven chart titles, drill‑ready slicers, and a bubble map.
 
-**Page 1 — Overview**
+**Page 1 - Overview**
 KPI cards (schools, students, Indigenous students, Indigenous share, % suppressed); a bubble **map** of Indigenous enrolment by location and remoteness; and the **concentration‑paradox** chart contrasting each remoteness band's share of *all* students with its share of *all Indigenous* students.
 
-**Page 2 — Factors**
+**Page 2 - Factors**
 Slicers (remoteness, level of schooling, data status, ICSEA band) driving: the **remoteness rate gradient**; a school‑level **scatter** of Indigenous % vs FOEI disadvantage (sized by enrolment, coloured by remoteness); the **ICSEA‑band** column chart; and an **AECG‑region** matrix of absolute cohorts and shares.
 
-Chart titles state the finding, not the field names — e.g. *"Indigenous share of enrolment climbs from 6% in Major Cities to 72% in Very Remote schools."*
+Chart titles state the finding, not the field names (e.g., *"Indigenous share of enrolment climbs from 6% in Major Cities to 72% in Very Remote schools."*)
 
 ---
 
 ## The Excel artifact
 
-`excel/NSW_Schools_Indigenous_Analysis.xlsx` — a self‑contained, PivotTable‑driven workbook.
+`excel/NSW_Schools_Indigenous_Analysis.xlsx` - a self‑contained, PivotTable‑driven workbook.
 
 | Sheet | What it contains |
 |---|---|
